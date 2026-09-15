@@ -1,0 +1,1451 @@
+{
+  "timestamp": "2026-09-15T12:27:42.947408+00:00",
+  "insights": {
+    "average_latency_ms": 156.02,
+    "max_cpu_usage": 99,
+    "max_memory_usage": 92,
+    "error_rate": 0.0316,
+    "uptime_seconds": 1258200
+  },
+  "anomalies": [
+    {
+      "metric": "thread_count",
+      "value": 186.0,
+      "threshold": 173.32,
+      "severity": "high",
+      "description": "[2023-10-01 19:30] thread_count a atteint 186.0 (z=4.74), au-delà du seuil normal (173.32)."
+    },
+    {
+      "metric": "io_wait",
+      "value": 14.0,
+      "threshold": 12.16,
+      "severity": "high",
+      "description": "[2023-10-01 22:00] io_wait a atteint 14.0 (z=3.68), au-delà du seuil normal (12.16)."
+    },
+    {
+      "metric": "latency_ms",
+      "value": 368.0,
+      "threshold": 357.0,
+      "severity": "high",
+      "description": "[2023-10-01 22:00] latency_ms a atteint 368.0 (z=3.16), au-delà du seuil normal (357.00)."
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 98.0,
+      "threshold": 97.5,
+      "severity": "high",
+      "description": "[2023-10-01 22:00] cpu_usage a atteint 98.0 (z=3.04), au-delà du seuil normal (97.50)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 375.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-01 22:00] power_consumption_watts a atteint 375.0 (z=3.04), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 12.16,
+      "severity": "high",
+      "description": "[2023-10-02 03:00] io_wait a atteint 13.0 (z=3.31), au-delà du seuil normal (12.16)."
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 88.0,
+      "threshold": 86.18,
+      "severity": "high",
+      "description": "[2023-10-02 03:00] temperature_celsius a atteint 88.0 (z=3.24), au-delà du seuil normal (86.18)."
+    },
+    {
+      "metric": "latency_ms",
+      "value": 369.0,
+      "threshold": 357.0,
+      "severity": "high",
+      "description": "[2023-10-02 03:00] latency_ms a atteint 369.0 (z=3.18), au-delà du seuil normal (357.00)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2850.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-02 08:00] network_in_kbps a atteint 2850.0 (z=3.45), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "memory_usage",
+      "value": 91.0,
+      "threshold": 89.8,
+      "severity": "high",
+      "description": "[2023-10-02 08:00] memory_usage a atteint 91.0 (z=3.16), au-delà du seuil normal (89.80)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 379.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-02 08:00] power_consumption_watts a atteint 379.0 (z=3.15), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "active_connections",
+      "value": 133.0,
+      "threshold": 130.06,
+      "severity": "high",
+      "description": "[2023-10-02 08:00] active_connections a atteint 133.0 (z=3.12), au-delà du seuil normal (130.06)."
+    },
+    {
+      "metric": "network_out_kbps",
+      "value": 2287.0,
+      "threshold": 2169.14,
+      "severity": "high",
+      "description": "[2023-10-02 13:00] network_out_kbps a atteint 2287.0 (z=3.37), au-delà du seuil normal (2169.14)."
+    },
+    {
+      "metric": "memory_usage",
+      "value": 92.0,
+      "threshold": 89.8,
+      "severity": "high",
+      "description": "[2023-10-02 13:00] memory_usage a atteint 92.0 (z=3.30), au-delà du seuil normal (89.80)."
+    },
+    {
+      "metric": "active_connections",
+      "value": 136.0,
+      "threshold": 130.06,
+      "severity": "high",
+      "description": "[2023-10-02 13:00] active_connections a atteint 136.0 (z=3.25), au-delà du seuil normal (130.06)."
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 99.0,
+      "threshold": 97.5,
+      "severity": "high",
+      "description": "[2023-10-02 13:00] cpu_usage a atteint 99.0 (z=3.12), au-delà du seuil normal (97.50)."
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 87.0,
+      "threshold": 86.18,
+      "severity": "high",
+      "description": "[2023-10-02 13:00] temperature_celsius a atteint 87.0 (z=3.11), au-delà du seuil normal (86.18)."
+    },
+    {
+      "metric": "latency_ms",
+      "value": 380.0,
+      "threshold": 357.0,
+      "severity": "high",
+      "description": "[2023-10-02 18:00] latency_ms a atteint 380.0 (z=3.34), au-delà du seuil normal (357.00)."
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 12.16,
+      "severity": "high",
+      "description": "[2023-10-02 18:00] io_wait a atteint 13.0 (z=3.31), au-delà du seuil normal (12.16)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-02 18:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 88.0,
+      "threshold": 86.18,
+      "severity": "high",
+      "description": "[2023-10-02 18:00] temperature_celsius a atteint 88.0 (z=3.24), au-delà du seuil normal (86.18)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 382.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-02 18:00] power_consumption_watts a atteint 382.0 (z=3.23), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 98.0,
+      "threshold": 97.5,
+      "severity": "high",
+      "description": "[2023-10-02 18:00] cpu_usage a atteint 98.0 (z=3.04), au-delà du seuil normal (97.50)."
+    },
+    {
+      "metric": "thread_count",
+      "value": 174.0,
+      "threshold": 173.32,
+      "severity": "high",
+      "description": "[2023-10-03 01:30] thread_count a atteint 174.0 (z=3.09), au-delà du seuil normal (173.32)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2843.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-03 04:00] network_in_kbps a atteint 2843.0 (z=3.43), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "network_out_kbps",
+      "value": 2300.0,
+      "threshold": 2169.14,
+      "severity": "high",
+      "description": "[2023-10-03 04:00] network_out_kbps a atteint 2300.0 (z=3.41), au-delà du seuil normal (2169.14)."
+    },
+    {
+      "metric": "active_connections",
+      "value": 135.0,
+      "threshold": 130.06,
+      "severity": "high",
+      "description": "[2023-10-03 04:00] active_connections a atteint 135.0 (z=3.21), au-delà du seuil normal (130.06)."
+    },
+    {
+      "metric": "latency_ms",
+      "value": 369.0,
+      "threshold": 357.0,
+      "severity": "high",
+      "description": "[2023-10-03 04:00] latency_ms a atteint 369.0 (z=3.18), au-delà du seuil normal (357.00)."
+    },
+    {
+      "metric": "latency_ms",
+      "value": 381.0,
+      "threshold": 357.0,
+      "severity": "high",
+      "description": "[2023-10-03 09:00] latency_ms a atteint 381.0 (z=3.36), au-delà du seuil normal (357.00)."
+    },
+    {
+      "metric": "memory_usage",
+      "value": 92.0,
+      "threshold": 89.8,
+      "severity": "high",
+      "description": "[2023-10-03 09:00] memory_usage a atteint 92.0 (z=3.30), au-delà du seuil normal (89.80)."
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 88.0,
+      "threshold": 86.18,
+      "severity": "high",
+      "description": "[2023-10-03 09:00] temperature_celsius a atteint 88.0 (z=3.24), au-delà du seuil normal (86.18)."
+    },
+    {
+      "metric": "latency_ms",
+      "value": 384.0,
+      "threshold": 357.0,
+      "severity": "high",
+      "description": "[2023-10-03 14:00] latency_ms a atteint 384.0 (z=3.40), au-delà du seuil normal (357.00)."
+    },
+    {
+      "metric": "network_out_kbps",
+      "value": 2288.0,
+      "threshold": 2169.14,
+      "severity": "high",
+      "description": "[2023-10-03 14:00] network_out_kbps a atteint 2288.0 (z=3.38), au-delà du seuil normal (2169.14)."
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 89.0,
+      "threshold": 86.18,
+      "severity": "high",
+      "description": "[2023-10-03 14:00] temperature_celsius a atteint 89.0 (z=3.37), au-delà du seuil normal (86.18)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 381.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-03 14:00] power_consumption_watts a atteint 381.0 (z=3.20), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "disk_usage",
+      "value": 94.0,
+      "threshold": 93.83,
+      "severity": "high",
+      "description": "[2023-10-03 14:00] disk_usage a atteint 94.0 (z=3.02), au-delà du seuil normal (93.83)."
+    },
+    {
+      "metric": "thread_count",
+      "value": 176.0,
+      "threshold": 173.32,
+      "severity": "high",
+      "description": "[2023-10-03 16:30] thread_count a atteint 176.0 (z=3.37), au-delà du seuil normal (173.32)."
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 12.16,
+      "severity": "high",
+      "description": "[2023-10-03 19:00] io_wait a atteint 13.0 (z=3.31), au-delà du seuil normal (12.16)."
+    },
+    {
+      "metric": "latency_ms",
+      "value": 367.0,
+      "threshold": 357.0,
+      "severity": "high",
+      "description": "[2023-10-03 19:00] latency_ms a atteint 367.0 (z=3.15), au-delà du seuil normal (357.00)."
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 98.0,
+      "threshold": 97.5,
+      "severity": "high",
+      "description": "[2023-10-03 19:00] cpu_usage a atteint 98.0 (z=3.04), au-delà du seuil normal (97.50)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2820.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-04 00:00] network_in_kbps a atteint 2820.0 (z=3.38), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 89.0,
+      "threshold": 86.18,
+      "severity": "high",
+      "description": "[2023-10-04 00:00] temperature_celsius a atteint 89.0 (z=3.37), au-delà du seuil normal (86.18)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 384.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-04 00:00] power_consumption_watts a atteint 384.0 (z=3.28), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "active_connections",
+      "value": 136.0,
+      "threshold": 130.06,
+      "severity": "high",
+      "description": "[2023-10-04 00:00] active_connections a atteint 136.0 (z=3.25), au-delà du seuil normal (130.06)."
+    },
+    {
+      "metric": "network_out_kbps",
+      "value": 2222.0,
+      "threshold": 2169.14,
+      "severity": "high",
+      "description": "[2023-10-04 00:00] network_out_kbps a atteint 2222.0 (z=3.17), au-delà du seuil normal (2169.14)."
+    },
+    {
+      "metric": "memory_usage",
+      "value": 92.0,
+      "threshold": 89.8,
+      "severity": "high",
+      "description": "[2023-10-04 05:00] memory_usage a atteint 92.0 (z=3.30), au-delà du seuil normal (89.80)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-04 05:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2730.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-04 05:00] network_in_kbps a atteint 2730.0 (z=3.17), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "active_connections",
+      "value": 134.0,
+      "threshold": 130.06,
+      "severity": "high",
+      "description": "[2023-10-04 05:00] active_connections a atteint 134.0 (z=3.17), au-delà du seuil normal (130.06)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 376.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-04 05:00] power_consumption_watts a atteint 376.0 (z=3.06), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "thread_count",
+      "value": 189.0,
+      "threshold": 173.32,
+      "severity": "high",
+      "description": "[2023-10-04 07:30] thread_count a atteint 189.0 (z=5.16), au-delà du seuil normal (173.32)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2822.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-04 10:00] network_in_kbps a atteint 2822.0 (z=3.38), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-04 10:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 99.0,
+      "threshold": 97.5,
+      "severity": "high",
+      "description": "[2023-10-04 10:00] cpu_usage a atteint 99.0 (z=3.12), au-delà du seuil normal (97.50)."
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 12.16,
+      "severity": "high",
+      "description": "[2023-10-04 15:00] io_wait a atteint 13.0 (z=3.31), au-delà du seuil normal (12.16)."
+    },
+    {
+      "metric": "latency_ms",
+      "value": 374.0,
+      "threshold": 357.0,
+      "severity": "high",
+      "description": "[2023-10-04 15:00] latency_ms a atteint 374.0 (z=3.25), au-delà du seuil normal (357.00)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 381.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-04 15:00] power_consumption_watts a atteint 381.0 (z=3.20), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 98.0,
+      "threshold": 97.5,
+      "severity": "high",
+      "description": "[2023-10-04 15:00] cpu_usage a atteint 98.0 (z=3.04), au-delà du seuil normal (97.50)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2854.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-04 20:00] network_in_kbps a atteint 2854.0 (z=3.46), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "network_out_kbps",
+      "value": 2301.0,
+      "threshold": 2169.14,
+      "severity": "high",
+      "description": "[2023-10-04 20:00] network_out_kbps a atteint 2301.0 (z=3.42), au-delà du seuil normal (2169.14)."
+    },
+    {
+      "metric": "latency_ms",
+      "value": 377.0,
+      "threshold": 357.0,
+      "severity": "high",
+      "description": "[2023-10-04 20:00] latency_ms a atteint 377.0 (z=3.30), au-delà du seuil normal (357.00)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-04 20:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 374.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-04 20:00] power_consumption_watts a atteint 374.0 (z=3.01), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "thread_count",
+      "value": 184.0,
+      "threshold": 173.32,
+      "severity": "high",
+      "description": "[2023-10-04 22:30] thread_count a atteint 184.0 (z=4.47), au-delà du seuil normal (173.32)."
+    },
+    {
+      "metric": "io_wait",
+      "value": 14.0,
+      "threshold": 12.16,
+      "severity": "high",
+      "description": "[2023-10-05 01:00] io_wait a atteint 14.0 (z=3.68), au-delà du seuil normal (12.16)."
+    },
+    {
+      "metric": "memory_usage",
+      "value": 91.0,
+      "threshold": 89.8,
+      "severity": "high",
+      "description": "[2023-10-05 01:00] memory_usage a atteint 91.0 (z=3.16), au-delà du seuil normal (89.80)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2825.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-05 06:00] network_in_kbps a atteint 2825.0 (z=3.39), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 386.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-05 06:00] power_consumption_watts a atteint 386.0 (z=3.34), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "active_connections",
+      "value": 136.0,
+      "threshold": 130.06,
+      "severity": "high",
+      "description": "[2023-10-05 06:00] active_connections a atteint 136.0 (z=3.25), au-delà du seuil normal (130.06)."
+    },
+    {
+      "metric": "memory_usage",
+      "value": 90.0,
+      "threshold": 89.8,
+      "severity": "high",
+      "description": "[2023-10-05 06:00] memory_usage a atteint 90.0 (z=3.03), au-delà du seuil normal (89.80)."
+    },
+    {
+      "metric": "disk_usage",
+      "value": 96.0,
+      "threshold": 93.83,
+      "severity": "high",
+      "description": "[2023-10-05 11:00] disk_usage a atteint 96.0 (z=3.22), au-delà du seuil normal (93.83)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 381.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-05 11:00] power_consumption_watts a atteint 381.0 (z=3.20), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "active_connections",
+      "value": 134.0,
+      "threshold": 130.06,
+      "severity": "high",
+      "description": "[2023-10-05 11:00] active_connections a atteint 134.0 (z=3.17), au-delà du seuil normal (130.06)."
+    },
+    {
+      "metric": "thread_count",
+      "value": 176.0,
+      "threshold": 173.32,
+      "severity": "high",
+      "description": "[2023-10-05 13:30] thread_count a atteint 176.0 (z=3.37), au-delà du seuil normal (173.32)."
+    },
+    {
+      "metric": "io_wait",
+      "value": 14.0,
+      "threshold": 12.16,
+      "severity": "high",
+      "description": "[2023-10-05 16:00] io_wait a atteint 14.0 (z=3.68), au-delà du seuil normal (12.16)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2662.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-05 16:00] network_in_kbps a atteint 2662.0 (z=3.01), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 386.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-05 21:00] power_consumption_watts a atteint 386.0 (z=3.34), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "disk_usage",
+      "value": 97.0,
+      "threshold": 93.83,
+      "severity": "high",
+      "description": "[2023-10-05 21:00] disk_usage a atteint 97.0 (z=3.32), au-delà du seuil normal (93.83)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-05 21:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 12.16,
+      "severity": "high",
+      "description": "[2023-10-06 02:00] io_wait a atteint 13.0 (z=3.31), au-delà du seuil normal (12.16)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2763.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-06 02:00] network_in_kbps a atteint 2763.0 (z=3.25), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 88.0,
+      "threshold": 86.18,
+      "severity": "high",
+      "description": "[2023-10-06 02:00] temperature_celsius a atteint 88.0 (z=3.24), au-delà du seuil normal (86.18)."
+    },
+    {
+      "metric": "memory_usage",
+      "value": 91.0,
+      "threshold": 89.8,
+      "severity": "high",
+      "description": "[2023-10-06 02:00] memory_usage a atteint 91.0 (z=3.16), au-delà du seuil normal (89.80)."
+    },
+    {
+      "metric": "thread_count",
+      "value": 185.0,
+      "threshold": 173.32,
+      "severity": "high",
+      "description": "[2023-10-06 04:30] thread_count a atteint 185.0 (z=4.61), au-delà du seuil normal (173.32)."
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 89.0,
+      "threshold": 86.18,
+      "severity": "high",
+      "description": "[2023-10-06 07:00] temperature_celsius a atteint 89.0 (z=3.37), au-delà du seuil normal (86.18)."
+    },
+    {
+      "metric": "memory_usage",
+      "value": 92.0,
+      "threshold": 89.8,
+      "severity": "high",
+      "description": "[2023-10-06 07:00] memory_usage a atteint 92.0 (z=3.30), au-delà du seuil normal (89.80)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-06 07:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "disk_usage",
+      "value": 95.0,
+      "threshold": 93.83,
+      "severity": "high",
+      "description": "[2023-10-06 07:00] disk_usage a atteint 95.0 (z=3.12), au-delà du seuil normal (93.83)."
+    },
+    {
+      "metric": "network_out_kbps",
+      "value": 2178.0,
+      "threshold": 2169.14,
+      "severity": "high",
+      "description": "[2023-10-06 07:00] network_out_kbps a atteint 2178.0 (z=3.03), au-delà du seuil normal (2169.14)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-06 17:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "active_connections",
+      "value": 134.0,
+      "threshold": 130.06,
+      "severity": "high",
+      "description": "[2023-10-06 17:00] active_connections a atteint 134.0 (z=3.17), au-delà du seuil normal (130.06)."
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 87.0,
+      "threshold": 86.18,
+      "severity": "high",
+      "description": "[2023-10-06 17:00] temperature_celsius a atteint 87.0 (z=3.11), au-delà du seuil normal (86.18)."
+    },
+    {
+      "metric": "thread_count",
+      "value": 178.0,
+      "threshold": 173.32,
+      "severity": "high",
+      "description": "[2023-10-06 19:30] thread_count a atteint 178.0 (z=3.64), au-delà du seuil normal (173.32)."
+    },
+    {
+      "metric": "io_wait",
+      "value": 14.0,
+      "threshold": 12.16,
+      "severity": "high",
+      "description": "[2023-10-06 22:00] io_wait a atteint 14.0 (z=3.68), au-delà du seuil normal (12.16)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-06 22:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 378.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-06 22:00] power_consumption_watts a atteint 378.0 (z=3.12), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 98.0,
+      "threshold": 97.5,
+      "severity": "high",
+      "description": "[2023-10-06 22:00] cpu_usage a atteint 98.0 (z=3.04), au-delà du seuil normal (97.50)."
+    },
+    {
+      "metric": "memory_usage",
+      "value": 90.0,
+      "threshold": 89.8,
+      "severity": "high",
+      "description": "[2023-10-06 22:00] memory_usage a atteint 90.0 (z=3.03), au-delà du seuil normal (89.80)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-07 03:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "disk_usage",
+      "value": 95.0,
+      "threshold": 93.83,
+      "severity": "high",
+      "description": "[2023-10-07 03:00] disk_usage a atteint 95.0 (z=3.12), au-delà du seuil normal (93.83)."
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 98.0,
+      "threshold": 97.5,
+      "severity": "high",
+      "description": "[2023-10-07 03:00] cpu_usage a atteint 98.0 (z=3.04), au-delà du seuil normal (97.50)."
+    },
+    {
+      "metric": "active_connections",
+      "value": 131.0,
+      "threshold": 130.06,
+      "severity": "high",
+      "description": "[2023-10-07 03:00] active_connections a atteint 131.0 (z=3.04), au-delà du seuil normal (130.06)."
+    },
+    {
+      "metric": "io_wait",
+      "value": 14.0,
+      "threshold": 12.16,
+      "severity": "high",
+      "description": "[2023-10-07 08:00] io_wait a atteint 14.0 (z=3.68), au-delà du seuil normal (12.16)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-07 08:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 381.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-07 08:00] power_consumption_watts a atteint 381.0 (z=3.20), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 87.0,
+      "threshold": 86.18,
+      "severity": "high",
+      "description": "[2023-10-07 08:00] temperature_celsius a atteint 87.0 (z=3.11), au-delà du seuil normal (86.18)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2682.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-07 08:00] network_in_kbps a atteint 2682.0 (z=3.06), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 12.16,
+      "severity": "high",
+      "description": "[2023-10-07 13:00] io_wait a atteint 13.0 (z=3.31), au-delà du seuil normal (12.16)."
+    },
+    {
+      "metric": "memory_usage",
+      "value": 92.0,
+      "threshold": 89.8,
+      "severity": "high",
+      "description": "[2023-10-07 13:00] memory_usage a atteint 92.0 (z=3.30), au-delà du seuil normal (89.80)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-07 13:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 88.0,
+      "threshold": 86.18,
+      "severity": "high",
+      "description": "[2023-10-07 13:00] temperature_celsius a atteint 88.0 (z=3.24), au-delà du seuil normal (86.18)."
+    },
+    {
+      "metric": "disk_usage",
+      "value": 95.0,
+      "threshold": 93.83,
+      "severity": "high",
+      "description": "[2023-10-07 13:00] disk_usage a atteint 95.0 (z=3.12), au-delà du seuil normal (93.83)."
+    },
+    {
+      "metric": "active_connections",
+      "value": 133.0,
+      "threshold": 130.06,
+      "severity": "high",
+      "description": "[2023-10-07 13:00] active_connections a atteint 133.0 (z=3.12), au-delà du seuil normal (130.06)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 377.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-07 13:00] power_consumption_watts a atteint 377.0 (z=3.09), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 12.16,
+      "severity": "high",
+      "description": "[2023-10-07 18:00] io_wait a atteint 13.0 (z=3.31), au-delà du seuil normal (12.16)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-07 18:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "memory_usage",
+      "value": 91.0,
+      "threshold": 89.8,
+      "severity": "high",
+      "description": "[2023-10-07 18:00] memory_usage a atteint 91.0 (z=3.16), au-delà du seuil normal (89.80)."
+    },
+    {
+      "metric": "network_out_kbps",
+      "value": 2173.0,
+      "threshold": 2169.14,
+      "severity": "high",
+      "description": "[2023-10-07 23:00] network_out_kbps a atteint 2173.0 (z=3.01), au-delà du seuil normal (2169.14)."
+    },
+    {
+      "metric": "thread_count",
+      "value": 188.0,
+      "threshold": 173.32,
+      "severity": "high",
+      "description": "[2023-10-08 01:30] thread_count a atteint 188.0 (z=5.02), au-delà du seuil normal (173.32)."
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 12.16,
+      "severity": "high",
+      "description": "[2023-10-08 04:00] io_wait a atteint 13.0 (z=3.31), au-delà du seuil normal (12.16)."
+    },
+    {
+      "metric": "memory_usage",
+      "value": 92.0,
+      "threshold": 89.8,
+      "severity": "high",
+      "description": "[2023-10-08 04:00] memory_usage a atteint 92.0 (z=3.30), au-delà du seuil normal (89.80)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2778.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-08 04:00] network_in_kbps a atteint 2778.0 (z=3.28), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-08 04:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2854.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-08 09:00] network_in_kbps a atteint 2854.0 (z=3.46), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-08 09:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "memory_usage",
+      "value": 90.0,
+      "threshold": 89.8,
+      "severity": "high",
+      "description": "[2023-10-08 09:00] memory_usage a atteint 90.0 (z=3.03), au-delà du seuil normal (89.80)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 388.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-08 14:00] power_consumption_watts a atteint 388.0 (z=3.39), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "latency_ms",
+      "value": 382.0,
+      "threshold": 357.0,
+      "severity": "high",
+      "description": "[2023-10-08 14:00] latency_ms a atteint 382.0 (z=3.37), au-delà du seuil normal (357.00)."
+    },
+    {
+      "metric": "network_out_kbps",
+      "value": 2204.0,
+      "threshold": 2169.14,
+      "severity": "high",
+      "description": "[2023-10-08 14:00] network_out_kbps a atteint 2204.0 (z=3.11), au-delà du seuil normal (2169.14)."
+    },
+    {
+      "metric": "disk_usage",
+      "value": 94.0,
+      "threshold": 93.83,
+      "severity": "high",
+      "description": "[2023-10-08 14:00] disk_usage a atteint 94.0 (z=3.02), au-delà du seuil normal (93.83)."
+    },
+    {
+      "metric": "network_out_kbps",
+      "value": 2299.0,
+      "threshold": 2169.14,
+      "severity": "high",
+      "description": "[2023-10-08 19:00] network_out_kbps a atteint 2299.0 (z=3.41), au-delà du seuil normal (2169.14)."
+    },
+    {
+      "metric": "active_connections",
+      "value": 136.0,
+      "threshold": 130.06,
+      "severity": "high",
+      "description": "[2023-10-08 19:00] active_connections a atteint 136.0 (z=3.25), au-delà du seuil normal (130.06)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-08 19:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "memory_usage",
+      "value": 91.0,
+      "threshold": 89.8,
+      "severity": "high",
+      "description": "[2023-10-08 19:00] memory_usage a atteint 91.0 (z=3.16), au-delà du seuil normal (89.80)."
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 87.0,
+      "threshold": 86.18,
+      "severity": "high",
+      "description": "[2023-10-08 19:00] temperature_celsius a atteint 87.0 (z=3.11), au-delà du seuil normal (86.18)."
+    },
+    {
+      "metric": "io_wait",
+      "value": 14.0,
+      "threshold": 12.16,
+      "severity": "high",
+      "description": "[2023-10-09 00:00] io_wait a atteint 14.0 (z=3.68), au-delà du seuil normal (12.16)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 388.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-09 00:00] power_consumption_watts a atteint 388.0 (z=3.39), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-09 00:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "network_out_kbps",
+      "value": 2233.0,
+      "threshold": 2169.14,
+      "severity": "high",
+      "description": "[2023-10-09 00:00] network_out_kbps a atteint 2233.0 (z=3.20), au-delà du seuil normal (2169.14)."
+    },
+    {
+      "metric": "latency_ms",
+      "value": 361.0,
+      "threshold": 357.0,
+      "severity": "high",
+      "description": "[2023-10-09 05:00] latency_ms a atteint 361.0 (z=3.06), au-delà du seuil normal (357.00)."
+    },
+    {
+      "metric": "thread_count",
+      "value": 188.0,
+      "threshold": 173.32,
+      "severity": "high",
+      "description": "[2023-10-09 07:30] thread_count a atteint 188.0 (z=5.02), au-delà du seuil normal (173.32)."
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 12.16,
+      "severity": "high",
+      "description": "[2023-10-09 10:00] io_wait a atteint 13.0 (z=3.31), au-delà du seuil normal (12.16)."
+    },
+    {
+      "metric": "latency_ms",
+      "value": 377.0,
+      "threshold": 357.0,
+      "severity": "high",
+      "description": "[2023-10-09 10:00] latency_ms a atteint 377.0 (z=3.30), au-delà du seuil normal (357.00)."
+    },
+    {
+      "metric": "network_out_kbps",
+      "value": 2209.0,
+      "threshold": 2169.14,
+      "severity": "high",
+      "description": "[2023-10-09 10:00] network_out_kbps a atteint 2209.0 (z=3.13), au-delà du seuil normal (2169.14)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 378.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-09 10:00] power_consumption_watts a atteint 378.0 (z=3.12), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "memory_usage",
+      "value": 90.0,
+      "threshold": 89.8,
+      "severity": "high",
+      "description": "[2023-10-09 10:00] memory_usage a atteint 90.0 (z=3.03), au-delà du seuil normal (89.80)."
+    },
+    {
+      "metric": "disk_usage",
+      "value": 94.0,
+      "threshold": 93.83,
+      "severity": "high",
+      "description": "[2023-10-09 10:00] disk_usage a atteint 94.0 (z=3.02), au-delà du seuil normal (93.83)."
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 89.0,
+      "threshold": 86.18,
+      "severity": "high",
+      "description": "[2023-10-09 15:00] temperature_celsius a atteint 89.0 (z=3.37), au-delà du seuil normal (86.18)."
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 12.16,
+      "severity": "high",
+      "description": "[2023-10-09 15:00] io_wait a atteint 13.0 (z=3.31), au-delà du seuil normal (12.16)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-09 15:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "network_out_kbps",
+      "value": 2242.0,
+      "threshold": 2169.14,
+      "severity": "high",
+      "description": "[2023-10-09 15:00] network_out_kbps a atteint 2242.0 (z=3.23), au-delà du seuil normal (2169.14)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 382.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-09 15:00] power_consumption_watts a atteint 382.0 (z=3.23), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "disk_usage",
+      "value": 95.0,
+      "threshold": 93.83,
+      "severity": "high",
+      "description": "[2023-10-09 15:00] disk_usage a atteint 95.0 (z=3.12), au-delà du seuil normal (93.83)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2660.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-09 15:00] network_in_kbps a atteint 2660.0 (z=3.01), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 12.16,
+      "severity": "high",
+      "description": "[2023-10-09 20:00] io_wait a atteint 13.0 (z=3.31), au-delà du seuil normal (12.16)."
+    },
+    {
+      "metric": "disk_usage",
+      "value": 96.0,
+      "threshold": 93.83,
+      "severity": "high",
+      "description": "[2023-10-09 20:00] disk_usage a atteint 96.0 (z=3.22), au-delà du seuil normal (93.83)."
+    },
+    {
+      "metric": "memory_usage",
+      "value": 91.0,
+      "threshold": 89.8,
+      "severity": "high",
+      "description": "[2023-10-09 20:00] memory_usage a atteint 91.0 (z=3.16), au-delà du seuil normal (89.80)."
+    },
+    {
+      "metric": "latency_ms",
+      "value": 363.0,
+      "threshold": 357.0,
+      "severity": "high",
+      "description": "[2023-10-09 20:00] latency_ms a atteint 363.0 (z=3.09), au-delà du seuil normal (357.00)."
+    },
+    {
+      "metric": "thread_count",
+      "value": 181.0,
+      "threshold": 173.32,
+      "severity": "high",
+      "description": "[2023-10-09 22:30] thread_count a atteint 181.0 (z=4.06), au-delà du seuil normal (173.32)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2821.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-10 01:00] network_in_kbps a atteint 2821.0 (z=3.38), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-10 01:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "disk_usage",
+      "value": 96.0,
+      "threshold": 93.83,
+      "severity": "high",
+      "description": "[2023-10-10 01:00] disk_usage a atteint 96.0 (z=3.22), au-delà du seuil normal (93.83)."
+    },
+    {
+      "metric": "network_out_kbps",
+      "value": 2212.0,
+      "threshold": 2169.14,
+      "severity": "high",
+      "description": "[2023-10-10 01:00] network_out_kbps a atteint 2212.0 (z=3.14), au-delà du seuil normal (2169.14)."
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 87.0,
+      "threshold": 86.18,
+      "severity": "high",
+      "description": "[2023-10-10 01:00] temperature_celsius a atteint 87.0 (z=3.11), au-delà du seuil normal (86.18)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 386.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-10 06:00] power_consumption_watts a atteint 386.0 (z=3.34), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2780.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-10 06:00] network_in_kbps a atteint 2780.0 (z=3.29), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "disk_usage",
+      "value": 96.0,
+      "threshold": 93.83,
+      "severity": "high",
+      "description": "[2023-10-10 06:00] disk_usage a atteint 96.0 (z=3.22), au-delà du seuil normal (93.83)."
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 98.0,
+      "threshold": 97.5,
+      "severity": "high",
+      "description": "[2023-10-10 06:00] cpu_usage a atteint 98.0 (z=3.04), au-delà du seuil normal (97.50)."
+    },
+    {
+      "metric": "latency_ms",
+      "value": 383.0,
+      "threshold": 357.0,
+      "severity": "high",
+      "description": "[2023-10-10 11:00] latency_ms a atteint 383.0 (z=3.39), au-delà du seuil normal (357.00)."
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 99.0,
+      "threshold": 97.5,
+      "severity": "high",
+      "description": "[2023-10-10 11:00] cpu_usage a atteint 99.0 (z=3.12), au-delà du seuil normal (97.50)."
+    },
+    {
+      "metric": "network_out_kbps",
+      "value": 2207.0,
+      "threshold": 2169.14,
+      "severity": "high",
+      "description": "[2023-10-10 11:00] network_out_kbps a atteint 2207.0 (z=3.12), au-delà du seuil normal (2169.14)."
+    },
+    {
+      "metric": "active_connections",
+      "value": 133.0,
+      "threshold": 130.06,
+      "severity": "high",
+      "description": "[2023-10-10 11:00] active_connections a atteint 133.0 (z=3.12), au-delà du seuil normal (130.06)."
+    },
+    {
+      "metric": "disk_usage",
+      "value": 94.0,
+      "threshold": 93.83,
+      "severity": "high",
+      "description": "[2023-10-10 11:00] disk_usage a atteint 94.0 (z=3.02), au-delà du seuil normal (93.83)."
+    },
+    {
+      "metric": "thread_count",
+      "value": 175.0,
+      "threshold": 173.32,
+      "severity": "high",
+      "description": "[2023-10-10 13:30] thread_count a atteint 175.0 (z=3.23), au-delà du seuil normal (173.32)."
+    },
+    {
+      "metric": "disk_usage",
+      "value": 94.0,
+      "threshold": 93.83,
+      "severity": "high",
+      "description": "[2023-10-10 16:00] disk_usage a atteint 94.0 (z=3.02), au-delà du seuil normal (93.83)."
+    },
+    {
+      "metric": "memory_usage",
+      "value": 92.0,
+      "threshold": 89.8,
+      "severity": "high",
+      "description": "[2023-10-10 21:00] memory_usage a atteint 92.0 (z=3.30), au-delà du seuil normal (89.80)."
+    },
+    {
+      "metric": "network_out_kbps",
+      "value": 2256.0,
+      "threshold": 2169.14,
+      "severity": "high",
+      "description": "[2023-10-10 21:00] network_out_kbps a atteint 2256.0 (z=3.27), au-delà du seuil normal (2169.14)."
+    },
+    {
+      "metric": "disk_usage",
+      "value": 95.0,
+      "threshold": 93.83,
+      "severity": "high",
+      "description": "[2023-10-10 21:00] disk_usage a atteint 95.0 (z=3.12), au-delà du seuil normal (93.83)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 376.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-10 21:00] power_consumption_watts a atteint 376.0 (z=3.06), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 98.0,
+      "threshold": 97.5,
+      "severity": "high",
+      "description": "[2023-10-10 21:00] cpu_usage a atteint 98.0 (z=3.04), au-delà du seuil normal (97.50)."
+    },
+    {
+      "metric": "disk_usage",
+      "value": 97.0,
+      "threshold": 93.83,
+      "severity": "high",
+      "description": "[2023-10-11 02:00] disk_usage a atteint 97.0 (z=3.32), au-delà du seuil normal (93.83)."
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 12.16,
+      "severity": "high",
+      "description": "[2023-10-11 02:00] io_wait a atteint 13.0 (z=3.31), au-delà du seuil normal (12.16)."
+    },
+    {
+      "metric": "active_connections",
+      "value": 133.0,
+      "threshold": 130.06,
+      "severity": "high",
+      "description": "[2023-10-11 02:00] active_connections a atteint 133.0 (z=3.12), au-delà du seuil normal (130.06)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2657.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-11 02:00] network_in_kbps a atteint 2657.0 (z=3.00), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "thread_count",
+      "value": 186.0,
+      "threshold": 173.32,
+      "severity": "high",
+      "description": "[2023-10-11 04:30] thread_count a atteint 186.0 (z=4.74), au-delà du seuil normal (173.32)."
+    },
+    {
+      "metric": "active_connections",
+      "value": 134.0,
+      "threshold": 130.06,
+      "severity": "high",
+      "description": "[2023-10-11 07:00] active_connections a atteint 134.0 (z=3.17), au-delà du seuil normal (130.06)."
+    },
+    {
+      "metric": "power_consumption_watts",
+      "value": 379.0,
+      "threshold": 373.68,
+      "severity": "high",
+      "description": "[2023-10-11 07:00] power_consumption_watts a atteint 379.0 (z=3.15), au-delà du seuil normal (373.68)."
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 87.0,
+      "threshold": 86.18,
+      "severity": "high",
+      "description": "[2023-10-11 07:00] temperature_celsius a atteint 87.0 (z=3.11), au-delà du seuil normal (86.18)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2698.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-11 07:00] network_in_kbps a atteint 2698.0 (z=3.10), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2804.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-11 12:00] network_in_kbps a atteint 2804.0 (z=3.34), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "latency_ms",
+      "value": 377.0,
+      "threshold": 357.0,
+      "severity": "high",
+      "description": "[2023-10-11 12:00] latency_ms a atteint 377.0 (z=3.30), au-delà du seuil normal (357.00)."
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.12,
+      "severity": "high",
+      "description": "[2023-10-11 12:00] error_rate a atteint 0.13 (z=3.25), au-delà du seuil normal (0.12)."
+    },
+    {
+      "metric": "memory_usage",
+      "value": 90.0,
+      "threshold": 89.8,
+      "severity": "high",
+      "description": "[2023-10-11 12:00] memory_usage a atteint 90.0 (z=3.03), au-delà du seuil normal (89.80)."
+    },
+    {
+      "metric": "network_in_kbps",
+      "value": 2846.0,
+      "threshold": 2656.71,
+      "severity": "high",
+      "description": "[2023-10-11 17:00] network_in_kbps a atteint 2846.0 (z=3.44), au-delà du seuil normal (2656.71)."
+    },
+    {
+      "metric": "active_connections",
+      "value": 134.0,
+      "threshold": 130.06,
+      "severity": "high",
+      "description": "[2023-10-11 17:00] active_connections a atteint 134.0 (z=3.17), au-delà du seuil normal (130.06)."
+    },
+    {
+      "metric": "network_out_kbps",
+      "value": 2206.0,
+      "threshold": 2169.14,
+      "severity": "high",
+      "description": "[2023-10-11 17:00] network_out_kbps a atteint 2206.0 (z=3.12), au-delà du seuil normal (2169.14)."
+    },
+    {
+      "metric": "disk_usage",
+      "value": 94.0,
+      "threshold": 93.83,
+      "severity": "high",
+      "description": "[2023-10-11 17:00] disk_usage a atteint 94.0 (z=3.02), au-delà du seuil normal (93.83)."
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "database=online|api_gateway=degraded|cache=online",
+      "action": "scale_out",
+      "target": "api_gateway",
+      "parameters": {
+        "instance_count": 3,
+        "cpu_target_percent": 60,
+        "memory_target_percent": 70,
+        "connection_pool_limit": 140
+      },
+      "benefit_estimate": "Réduit la saturation structurelle de l’api_gateway responsable de la dérive de latence/erreurs et absorbe les pics récurrents de trafic, avec baisse attendue de la latence et du taux d’erreur vers la baseline."
+    },
+    {
+      "id": "database=online|api_gateway=online|cache=degraded",
+      "action": "Augmenter la capacité et la concurrence du cache pour résorber la saturation récurrente des threads",
+      "target": "cache",
+      "parameters": {
+        "min_replicas": 2,
+        "max_replicas": 4,
+        "worker_threads": 192,
+        "active_connection_limit": 64,
+        "cpu_target_percent": 65,
+        "scale_up_cooldown_minutes": 10
+      },
+      "benefit_estimate": "Réduction attendue de la latence de 30–45%, baisse du taux d’erreur de 50–70% et retour du thread_count sous ~157 en régime normal."
+    },
+    {
+      "id": "database=offline|api_gateway=online|cache=online",
+      "action": "restart_service",
+      "target": "database",
+      "parameters": {
+        "graceful_timeout_seconds": 30,
+        "healthcheck_wait_seconds": 120
+      },
+      "benefit_estimate": "Rétablit la disponibilité de la base de données, cause racine la plus probable d'une panne applicative sans pics de saturation, avec impact attendu immédiat sur le retour à l'état nominal."
+    },
+    {
+      "id": "database=online|api_gateway=degraded|cache=degraded",
+      "action": "augment_connection_pool_and_cache_capacity",
+      "target": "api_gateway",
+      "parameters": {
+        "max_connections": 70,
+        "request_timeout_ms": 200,
+        "cache_pool_size_percent": 25,
+        "rollout_duration_min": 15
+      },
+      "benefit_estimate": "Réduit la saturation de fond visible sur les services dégradés en absorbant la hausse durable de connexions et d'E/S, ce qui devrait faire baisser la latence et le taux d'erreur sans attendre de pics."
+    }
+  ],
+  "service_status_summary": {
+    "online": [],
+    "degraded": [
+      "api_gateway",
+      "cache"
+    ],
+    "offline": [
+      "database"
+    ]
+  }
+}
